@@ -19,8 +19,8 @@ namespace JwtService.Services
     }
     public class AwsService : IAwsService
     {
-        private readonly string awsAccessKeyId = "AKIAYZCL4NMT3IOJ6GVS";
-        private readonly string awsSecretAccessKey = "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";
+        private readonly string awsAccessKeyId = "xxxx";
+        private readonly string awsSecretAccessKey = "xxxx";
         private readonly IAmazonSQS _sqsClient;
 
         public AwsService()
